@@ -413,5 +413,11 @@ contract ERC721 is Context, ERC165, IERC721, IERC721Metadata {
         uint256 tokenId
     ) internal virtual {}
     
+    function _beforeTokenTransfersss(
+        address from,
+        address to,
+        uint256 tokenId
+    ) internal virtual {}
+    
 
 }
